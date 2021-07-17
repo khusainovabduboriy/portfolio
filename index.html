@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="./images/Без-имени-1.png">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <title>MY WORK</title>
+</head>
+
+<body>
+  <!--  <div class="loading" id="logo"><div class="cssload-loader">
+    <div class="cssload-inner cssload-one"></div>
+    <div class="cssload-inner cssload-two"></div>
+    <div class="cssload-inner cssload-three"></div>
+  </div></div> -->
+  <a href="#" class="top d-flex align-items-center justify-content-center row" id="demo"><i
+      class="fas fa-arrow-up"></i></a>
+  <!-- HEADER -->
+
+  <header class="header d-flex flex-column " id="partic">
+    <!-- NAVIGATION -->
+    <div class="header__nav">
+      <div class="container">
+        <nav class="navbar-expand-lg d-flex flex-wrap align-content-center justify-content-between">
+          <a class="logo d-flex align-items-center" href="#">kh<span
+              class="header__logo_white header__logo-work_position">usainov</span></a>
+              <div class="burger">
+                <span class="burger__line burger__line_first"></span>
+                <span class="burger__line burger__line_second"></span>
+                <span class="burger__line burger__line_third"></span>
+                <span class="burger__line burger__line_fourth"></span>
+            </div>
+
+  
+            <ul class="menu_ul ml-auto">
+              <li class="nav__list">
+                <a class="nav__link" href="#history">History</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#works">works</a>
+              </li>
+              <li class="nav__list dropdown">
+                <a class="nav__link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Contacts
+                </a>
+                <div class="dropdown-menu nav__link-dropdown" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item drop" href="tel:+998901175775">+ 998 90 117 57 75</a>
+                  <a class="dropdown-item drop2" href="mailto: jason.davilson@mail.ru'">jason.davilson@mail.ru</a>
+                </div>
+              </li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- HEADER CONTENT -->
+    <div class="header__info d-flex flex-column justify-content-center">
+      <div class="container">
+        <h1 class="info__title" data-aos="zoom-out-down" data-aos-duration="2000"><span class="typed"></span>
+        </h1>
+        <p class="info__txt" data-aos="zoom-out-up" data-aos-duration="2000">Здравствуйте, меня зовут Хусаинов Абдуборий, я веб-программист, мне сейчас 16 лет, учился в учебном центре
+            PROWEB.Bы можете увидеть мои работы ниже
+        </p>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- person-info -->
+    <div class="mager">
+    <div class="person-info" id="history">
+      <div class="container">
+        <h2 class="person-info__title" data-aos="zoom-in-left">History</h2>
+        <p class="person-info__txt" data-aos="zoom-in-right"> <span class="type"></span></p>
+      </div>
+    </div>
+<script> 
+var typed = new Typed('.type', {
+  strings: ["Здравствуйте, меня зовут Хусаинов Абдуборий, я веб-программист, мне сейчас 16 лет, учился в учебном центре  PROWEB.Bы можете увидеть мои работы ниже"],
+  typeSpeed: 60,
+  onStop: (_, self) => {
+    clearInterval(self.timeout)
+   },
+});
+var typed = new Typed('.typed', {
+  strings: ["I'm web-developer"],
+  typeSpeed: 60,
+  onStop: (_, self) => {
+    clearInterval(self.timeout)
+   },
+});
+</script>
+    <!-- carousel -->
+    <div class="main__carousel">
+      <div class="container">
+
+        <div id="carouselExampleIndicators" class="carousel slide d-flex align-content-center align-items-center"
+          data-ride="carousel">
+
+          <!-- carusel-left-btn -->
+          <a class="col-1 carousel__btn" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="fad fa-angle-left" aria-hidden="true"></span>
+          </a>
+
+          <!-- carousel-inner -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="d-flex flex-wrap center ">
+                <div class="carousel-img col-8 col-lg-6 mauto">
+                  <img src="images/DSC00171.jpg" class="mauto carousel_img " alt="study">
+                </div>
+                <div class="carousel-info col-10 col-lg-6">
+                  <h2 class="carousel-info__title">PROWEB</h2>
+                  <p class="carousel-info__txt">Я изучал веб-программирование в Центре современных профессий PROWEB 9
+                    месяцев и получил сертификат. Я многому научился благодаря PROWEB и моим учителям.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex flex-wrap center">
+                <div class="carousel-img col-8 col-lg-6 mauto">
+                  <img src="images/DSC00162.jpg" class=" carousel_img " alt="study">
+                </div>
+                <div class="carousel-info col-10 col-lg-6">
+                  <h2 class="carousel-info__title">PROWEB</h2>
+                  <p class="carousel-info__txt">Потом получил сертификат</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- carusel-right-btn -->
+          <a class="col-1 carousel__btn" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="fad fa-angle-right" aria-hidden="true"></span>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+</div>
+
+
+    <div class="person-info person_bg" id="works">
+      <div class="container">
+        <h2 class="person-info__title p1" data-aos="fade-up">works</h2>
+        <p class="person-info__txt p1" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation. </p>
+      </div>
+    </div>
+    <div class="main__tabs person_bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 m-auto col-lg-7" data-aos="flip-up">
+            <ul class="nav justify-content-around" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class=" nav-link active btn" id="pills-home-tab" data-toggle="pill" href="#nike" role="tab"
+                  aria-controls="pills-home" aria-selected="true">nike</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="btn nav-link" id="pills-home-tab" data-toggle="pill" href="#silver" role="tab"
+                  aria-controls="pills-home" aria-selected="true">silver house</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="btn nav-link" id="pills-home-tab" data-toggle="pill" href="#orange" role="tab"
+                  aria-controls="pills-home" aria-selected="true">orange-marketing</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="btn nav-link" id="pills-home-tab" data-toggle="pill" href="#toshkent" role="tab"
+                  aria-controls="pills-home" aria-selected="true">macintosh</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="btn nav-link" id="pills-home-tab" data-toggle="pill" href="#street" role="tab"
+                  aria-controls="pills-home" aria-selected="true">street88</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="btn nav-link" id="pills-home-tab" data-toggle="pill" href="#pizzeria" role="tab"
+                  aria-controls="pills-home" aria-selected="true">pizzeria</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+
+          <div class="tab-pane fade show active" id="nike" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
+              <div class="row tab-pane__content justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <img src="images/nike.png" class="tab-content__img w-100" alt="">
+                </div>
+                <div class="col-11 col-md-7 col-lg-6">
+                  <div class="tab-content__box d-flex flex-column justify-content-between">
+                    <div>
+                      <h2 class="tab-content__title">NIKE Design</h2>
+                      <p class="tab-content__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum. Sed ut perspiciatis unde omnis iste</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="silver" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
+              <div class="row tab-pane__content justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <img src="images/silver-house.jpg" class="tab-content__img w-100" alt="">
+                </div>
+                <div class="col-11 col-md-7 col-lg-6">
+                  <div class="tab-content__box d-flex flex-column justify-content-between">
+                    <div>
+                      <h2 class="tab-content__title">Silver-house Design</h2>
+                      <p class="tab-content__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum. Sed ut perspiciatis unde omnis iste</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="orange" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
+              <div class="row tab-pane__content justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <img src="images/orange-market.jpg" class="tab-content__img w-100" alt="">
+                </div>
+                <div class="col-11 col-md-7 col-lg-6">
+                  <div class="tab-content__box d-flex flex-column justify-content-between">
+                    <div>
+                      <h2 class="tab-content__title">Orange Marketing Design</h2>
+                      <p class="tab-content__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum. Sed ut perspiciatis unde omnis iste</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="toshkent" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
+              <div class="row tab-pane__content justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <img src="images/Безымянный.png" class="tab-content__img w-100" alt="">
+                </div>
+                <div class="col-11 col-md-7 col-lg-6">
+                  <div class="tab-content__box d-flex flex-column justify-content-between">
+                    <div>
+                      <h2 class="tab-content__title">Macintosh</h2>
+                      <p class="tab-content__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum. Sed ut perspiciatis unde omnis iste</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="street" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
+              <div class="row tab-pane__content justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <img src="images/burger.jpg" class="tab-content__img w-100" alt="">
+                </div>
+                <div class="col-11 col-md-7 col-lg-6">
+                  <div class="tab-content__box d-flex flex-column justify-content-between">
+                    <div>
+                      <h2 class="tab-content__title">Street88 Design</h2>
+                      <p class="tab-content__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum. Sed ut perspiciatis unde omnis iste</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pizzeria" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
+              <div class="row tab-pane__content justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <img src="images/pizza.jpg" class="tab-content__img w-100" alt="">
+                </div>
+                <div class="col-11 col-md-7 col-lg-6">
+                  <div class="tab-content__box d-flex flex-column justify-content-between">
+                    <div>
+                      <h2 class="tab-content__title">Pizza Design</h2>
+                      <p class="tab-content__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum. Sed ut perspiciatis unde omnis iste</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,192L0,256L360,256L360,64L720,64L720,128L1080,128L1080,160L1440,160L1440,0L1080,0L1080,0L720,0L720,0L360,0L360,0L0,0L0,0Z"></path></svg>
+    </div>
+    <div class="main__html">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8" data-aos="zoom-in">
+            <div class="accordion w-100 h-100" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      <span class="fab fa-html5 collapse__txt d-flex">
+                        <p class="icon_txt">html5</p>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <span class="fab fa-css3-alt collapse__txt d-flex">
+                        <p class="icon_txt">css3</p>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <span class="fab fa-bootstrap collapse__txt d-flex">
+                        <p class="icon_txt">bootstrap4</p>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <span class="fab fa-php collapse__txt d-flex">
+                        <p class="icon_txt">php</p>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <span class="fab fa-wordpress collapse__txt d-flex">
+                        <p class="icon_txt">wordpress</p>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      <span class="fab fa-js collapse__txt d-flex">
+                        <p class="icon_txt">javascript</p>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="register">
+      <div class="container">
+        <form action="email.php" class="row d-flex flex-column align-items-center" method="POST">
+          <input type="text" name="user_name" class="imya" placeholder="Имя">
+          <input type="text" name="user_surname" class="fam" placeholder="Фамилия">
+          <input type="text" name="user_email" class="email" placeholder="Email">
+          <textarea class="kom" name="user_com" placeholder="Коммент"></textarea>
+          <button type="submit" class="subm">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4 d-flex flex-column align-items-center">
+          <a class="logo d-flex align-items-center" href="#">kh <span
+              class="header__logo_white header__logo_work log">usainov</span><span
+              class="fas fa-briefcase header__logo_white header__logo_size header__logo_position log"></span> </a>
+          <div class="footer_menu">
+            <ul class="footer__menu">
+              <li class=""><a class="footer-menu__link" href="#history">history</a></li>
+              <li class=""><a class="footer-menu__link" href="#works">works</a></li>
+              <li class=""><a class="footer-menu__link" href="#">contacts</a></li>
+            </ul>
+          </div>
+          <div class="footer_bottom">
+            <ul class=" footer_bottom d-flex flex-column align-items-center">
+              <div class="tel">
+                <li><a class="footer-phone col-10" href="tel:+998901175775">+ 998 90 117 57 75</a></li>
+              </div>
+              <li><a class="footer-mail col-10" href="mailto:jason.davilson@mail.ru">jason.davilson@mail.ru</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/js.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/script.js"></script>
+  
+</html>
